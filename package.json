@@ -46,7 +46,7 @@
     "isparta": "^4.0.0",
     "json-loader": "^0.5.3",
     "mocha": "^2.3.4",
-    "semantic-release": "^8.0.3",
+    "semantic-release": "semantic-release/semantic-release#31bbc15d0fed024fd0f6bc512735473c569c3ba5",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0",
     "vinyl-source-stream": "^1.1.0",
