@@ -5,7 +5,7 @@
   "scripts": {
     "test": "gulp",
     "semantic-pre": "semantic-release pre",
-    "semantic-release": "npm publish && semantic-release post"
+    "semantic-release": "npm publish && cat package.json && semantic-release post"
   },
   "repository": {
     "type": "git",
