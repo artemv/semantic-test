@@ -28,7 +28,6 @@
     "chai": "^3.4.1",
     "condition-circle": "^1.5.0",
     "del": "^2.2.0",
-    "freeform-semantic-commit-analyzer": "^1.1.0",
     "glob": "^6.0.3",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.1",
@@ -55,7 +54,6 @@
     "webpack-stream": "^3.1.0"
   },
   "release": {
-    "analyzeCommits": "freeform-semantic-commit-analyzer",
     "verifyConditions": "condition-circle"
   },
   "version": "0.0.0-development"
