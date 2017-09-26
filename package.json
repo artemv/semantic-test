@@ -8,7 +8,9 @@
     "test-browser": "gulp test-browser",
     "watch": "gulp watch",
     "build": "gulp build",
-    "coverage": "gulp coverage"
+    "coverage": "gulp coverage",
+    "semantic-pre": "semantic-release pre",
+    "semantic-release": "npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
