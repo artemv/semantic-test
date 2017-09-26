@@ -26,6 +26,7 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.3.13",
     "chai": "^3.4.1",
+    "condition-circle": "^1.5.0",
     "del": "^2.2.0",
     "freeform-semantic-commit-analyzer": "^1.1.0",
     "glob": "^6.0.3",
@@ -46,12 +47,12 @@
     "isparta": "^4.0.0",
     "json-loader": "^0.5.3",
     "mocha": "^2.3.4",
+    "semantic-release": "^8.0.3",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0",
     "vinyl-source-stream": "^1.1.0",
     "webpack": "^1.12.9",
-    "webpack-stream": "^3.1.0",
-    "semantic-release": "^8.0.3"
+    "webpack-stream": "^3.1.0"
   },
   "release": {
     "analyzeCommits": "freeform-semantic-commit-analyzer",
