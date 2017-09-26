@@ -1,6 +1,6 @@
 {
   "name": "@artemv/semantic-test",
-  "description": "A test library to check semantic-version in action",
+  "description": "A test library to check semantic-release in action",
   "main": "dist/test-lib.js",
   "scripts": {
     "test": "gulp",
@@ -9,7 +9,6 @@
     "watch": "gulp watch",
     "build": "gulp build",
     "coverage": "gulp coverage",
-    "semantic-release": "semantic-release pre && npm publish && cat package.json && semantic-release post"
   },
   "repository": {
     "type": "git",

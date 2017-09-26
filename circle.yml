@@ -10,4 +10,4 @@ dependencies:
 deployment:
   semantic-release:
     commands:
-      - npm publish && semantic-release post
+      - npm publish && cat package.json && semantic-release post
