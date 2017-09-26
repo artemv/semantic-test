@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 7.0.0
+
+dependencies:
+  override:
+    - npm install
+    - npm run semantic-pre
+
+deployment:
+  semantic-release:
+    commands:
+      - npm publish && semantic-release post
